@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Hello Marko</title>
+    </head>
+    <body>
+        <h1>My favorite colors</h1>
+        <ul>
+            <for|color| of=["red", "green", "blue"]>
+                <li style=`color:${color}`>
+                    ${color.toUpperCase()}
+                </li>
+            </for>
+        </ul>
+        <shared-footer/>
+    </body>
+</html>
