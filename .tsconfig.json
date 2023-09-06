@@ -23,18 +23,18 @@
         "strictBindCallApply": true,
         "noFallthroughCasesInSwitch": true
     },
+    "exclude": [
+        "node_modules",
+        "target"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ],
+    "compileOnSave": false,
     "files": [
-        "cgi/img.ts",
-        "cgi/index.ts",
-        "cgi/select.ts",
-        "cgi/serve.ts",
-        "cgi/src.ts",
-        "cgi/types/types.ts",
-        "cgi/modules/dynamicLinkGetter.ts",
-        "cgi/modules/findPath.ts",
-        "cgi/modules/portServer.ts",
-        "cgi/modules/replaceData.ts",
-        "cgi/extensions/syntax.ts",
-        "cgi/constants/constants.ts"
+        "src/app.ts",
+        "src/components/myComponent/myComponent.ts",
+        "src/pages/about.ts",
+        "src/pages/home.ts"
     ]
 }

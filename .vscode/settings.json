@@ -13,10 +13,11 @@
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[marko]": {
-        "editor.defaultFormatter": "Marko-JS.marko-vscode"
-    },
     "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "cSpell.words": [
+        "dynamiclink",
+        "marko"
+    ]
 }
